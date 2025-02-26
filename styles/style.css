@@ -29,19 +29,19 @@ header {
     list-style: none;
 }
   
-.header__address {
-    max-width: 240px;
-}
-  
 .address {
     font-size: 18px;
     text-underline-offset: 4px;
     text-decoration-thickness: 1px;
     line-height: 24.5px;
-    display: flex;
     font-style: normal;
+    display: flex ;
     flex-direction: column;
     justify-self: flex-end;
+}
+
+.header__address {
+  max-width: 240px;
 }
 
 .header__logo-image {
